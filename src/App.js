@@ -19,11 +19,11 @@ function App() {
           <h4>using React and Redux</h4>
 
           <div className="quantity">
-            <a className="quantity__minus" onClick={() => dispatch(decNumber())}><span >-</span></a>
+            <a className="quantity__minus" onClick={() => dispatch(decNumber(2))}><span >-</span></a>
 
             <input name="quantity" type="text" className="quantity__input" value={myState} />
 
-            <a className="quantity__plus" onClick={() => dispatch(incNumber())}><span>+</span></a>
+            <a className="quantity__plus" onClick={() => dispatch(incNumber(5))}><span>+</span></a>
           </div>
 
         </div>
