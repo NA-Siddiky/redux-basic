@@ -13,7 +13,7 @@ function App() {
 
           <div class="quantity">
             <a class="quantity__minus"><span>-</span></a>
-            <input name="quantity" type="text" class="quantity__input" />
+            <input name="quantity" type="text" class="quantity__input" value="0" />
             <a class="quantity__plus"><span>+</span></a>
           </div>
 
